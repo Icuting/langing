@@ -1,0 +1,333 @@
+body{
+    max-width: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body a:hover{
+ text-decoration: none;
+}
+
+.nav-item a{
+    color: #8f8f8f;
+    opacity: 0.8;
+    margin-right: 2em;
+}
+.nav-item a:hover{
+    color: #fff;
+    opacity: 1;
+}
+.slogan{
+    background-image: linear-gradient(powderblue, pink);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 91%);
+    height: 100px;
+    color: #fff;
+    font-weight: 200;
+    padding-top: 6em;
+    text-align: center;
+    height: 50em;
+}
+.slogan p{
+    font-size: 16pt;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+h1{
+    font-weight: 200;
+}
+.swap{
+    font-weight: 900;
+    font-size: 50pt;
+    transition: 1s;
+}
+.slogan .btn{
+    color: #fff;
+    margin-top: 2em;
+    border: 3px #fff solid;
+    border-radius: 30px;
+    height: 4em;
+    width: 15em;
+}
+.slogan .btn:hover{
+    color:#000;
+    background: #fff;
+}
+.slider{
+    width: 80%;
+    position: relative;
+    top: -15em;
+    left: 10%;
+    margin-bottom: 3em;
+}
+.title-services{
+    text-align: center;
+}
+.title-services p{
+    font-size: 10pt;
+    color: #8f8f8f;
+}
+.services{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 5em;
+    text-align: center;
+}
+.platform{
+    margin: 10px auto;
+    color: #8f8f8f;
+    font-size: 12pt;
+}
+.platform span{
+    color: #000;
+    font-size: 15pt;
+}
+.cricle-layers{
+   background: powderblue;
+}
+.cricle-options{
+    background: #a2f2bd;
+}
+.cricle-visualization{
+    background: #f2a2ed;
+}
+.cricle-support{
+    background: #f0c169;
+}
+.cricle{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin: 30px auto;
+}
+.cricle img{
+    position: relative;
+    top:25%;
+}
+.bg-blue{
+    position: absolute;
+    background: #7ccef7;
+    width: 100%;
+    height: 35em;
+    transform: skewY(4deg);
+}
+.more-detalis{
+    margin-top: 10em;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    height: 30em;
+}
+.more-detalis h2{
+    margin-bottom: 10px;
+    font-size: 30pt;
+}
+.detalis{
+    position: relative;
+    width: 50%;
+    top: 25%;
+    left: 25%;
+    height: 30em;
+}
+.detalis .btn{
+    color: #fff;
+    margin-top: 2em;
+    border: 3px #fff solid;
+    border-radius: 30px;
+    height: 4em;
+    width: 10em;
+}
+.detalis .btn:hover{
+    color:#000;
+    background: #fff;
+}
+.our-works{
+    padding-top: 15em;
+}
+.work-title{
+    text-align: center;
+}
+.work-title p{
+    font-size: 10pt;
+    color: #8f8f8f;
+}
+.example{
+    width: 100%;
+    height: 20em;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 5em;
+    margin-top: 5em;
+}
+.example img{
+    width: 35em;
+    height: 25em;
+}
+.example-title{
+    background: #f8faff;
+    padding: 10% 0 0 10%;
+}
+.example-title p,h3{
+    width: 70%;
+    padding-top: 20px;
+}
+.example-title p{
+    color: #a3c2d1;
+}
+.our-customer{
+    padding-top: 20em;
+}
+.customer-title{
+    text-align: center;
+    padding-bottom: 5em;
+}
+.customer-title p{
+    color: #8f8f8f;
+    font-size: 10pt;
+}
+.sayAbout{
+    width: 350px;
+    height: 400px;
+    border: 1px solid #9f9f9f;
+    margin: 0 auto;
+}
+.logo-customers{
+    display: block;
+    text-align: center;
+    margin: 1em;
+   
+}
+.say{
+    font-size: 14pt;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    color: #8f8f8f;
+    margin-top: 3em;
+}
+.name{
+    font-size: 11pt;
+    color: #000;
+    margin-top: 3em;
+}
+.bg-pink{
+    position: absolute;
+    background: #f06daa;
+    width: 100%;
+    height: 40em;
+    transform: skewY(4deg);
+}
+.our-achivements{
+    color: #fff;
+    margin-top: 15em;
+    text-align: center;
+}
+.achivements-title{
+    position: relative;
+    top: 7em;
+}
+.achivements{
+    font-size: 16pt;
+    position: relative;
+    width: 90%;
+    top: 7em;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3em;
+}
+.enjoy-customers, .time, .mix{
+    font-size: 30pt;
+    font-weight: 800;
+    
+}
+.blog{
+    padding-top: 40em;
+    text-align: center;
+
+}
+.blog-title p{
+    font-size: 10pt;
+    color: #8f8f8f;
+}
+.articles{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 3em;
+    grid-gap: 1em;
+}
+.once{
+    box-shadow: 3px 3px 7px #8f8f8f;
+
+}
+.cover{
+    width: 100%;
+    height: 350px;
+}
+.when-Who{
+    padding-top: 1em;
+    display: flex;
+    justify-content: space-around;
+    color: #8f8f8f;
+}
+
+.articles a{
+    color: #8f8f8f;
+}
+.review a{
+    color: #000;
+}
+.review{
+    font-size: 16pt;
+    text-align: left;
+    padding: 1em;
+    transition: 0.7s;
+}
+.articles a:hover{
+    transition: 0.6s;
+    color: #5e5ef2;
+}
+footer{
+    background: #3fbdeb;
+    padding-top: 10em;
+    margin-top: 10em;
+    color: #e6e3e3;
+    height: 40em;
+    clip-path: polygon(0 0, 100% 13%, 100% 100%, 0% 100%);
+}
+footer a{
+    color: #e6e3e3;
+}
+footer a:hover{
+    color: #fff;
+    transition: 0.6s;
+}
+.wrapper-footer{
+    display: grid;
+    grid-gap: 2em;
+    grid-template-columns: repeat(4, 1fr);
+    width: 90%;
+    margin: 0 auto;
+}
+.wrapper-footer h5{
+    margin-bottom: 2em;
+    color: #fff;
+}
+.social img{
+    margin: 7px;
+  
+}
+.social{
+    margin-top: 2em;
+}
+.subscribe{
+    background: #3fbdeb;
+    border: 1px solid #fff;
+    height: 3em;
+    width: 15em;
+    color: #fff;
+    padding: 1em;
+}
+.copyright{
+    text-align: center;
+    margin-top: 5em;
+}
